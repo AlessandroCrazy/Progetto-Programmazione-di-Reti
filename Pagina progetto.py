@@ -3,7 +3,7 @@ import http.server
 import socketserver
 
 # Sets the directory as the subfolder to make impossible a GET request to the site source code
-os.chdir('ProgPromRet\SitoProgetto')
+os.chdir('SitoProgetto')
 
 # Retrieves the port number from command line arguments or defaults to 8080.
 def get_port():
