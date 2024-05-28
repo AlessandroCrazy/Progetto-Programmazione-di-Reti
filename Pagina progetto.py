@@ -27,8 +27,6 @@ def run():
   try:
     while True:
       server.serve_forever()
-      server.handle_error()
-
   except KeyboardInterrupt:
     pass
 
